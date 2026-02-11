@@ -112,3 +112,11 @@
 # for i in range(n, 0, -1):
 #     if i % 2 ==0:
 #         print(i)
+
+
+word = "Arjun"
+n = len(word)
+for i in range(0 ,n):
+    for j in range(0, i + 1):
+        print(word[j], end = " ")
+    print()
